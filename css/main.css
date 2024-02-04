@@ -1197,7 +1197,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #a8cfff;
+  background: #9ecfd0;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2469,9 +2469,28 @@ ul.breadcrumb li + li:last-child {
   padding: 0;
 }
 body {
-  background: url("images/blue2.jpg");
-  background-size: cover;
+  background: url("/images/blue2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+}
+.content-wrap {
+  opacity: 0.8;
+}
+.sidebar-inner {
+  background: rgba(0,0,0,0.8) none repeat scroll !important;
+}
+.header-inner {
+  background: rgba(0,0,0,0.8);
+}
+.popup {
+  opacity: 0.8;
+}
+.post-block {
+  background: rgba(0,0,0,0) none repeat scroll !important;
 }
